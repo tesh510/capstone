@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   const [user, setUser] = useState(getUser());
-
+  const [posts, setPosts] = useState([])
   return (
     <main className="App">
       { user ?
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             {/* Route components in here */}
             <Route path="/" element={<PostsLists />} />
-            <Route path="/NewPosts" element={<NewPosts />} />
+            <Route path="/NewPosts" element={<NewPosts setPosts={setPosts} />} />
             <Route path="/orders" element={<OrderHistoryPage />} />
           </Routes>
         </>

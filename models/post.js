@@ -6,7 +6,8 @@ const SALT_ROUNDS = 6;
 
 const postSchema = new Schema({
   content: { type: String, required: true },
-    image: { type: String }
+    image: { type: String },
+    user: { type: Schema.Types.ObjectId, ref: 'User' }
   
 }, {
   timestamps: true,
