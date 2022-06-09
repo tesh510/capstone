@@ -17,10 +17,12 @@ export default function NewPosts({ setPost }) {
   async function handleSubmit(evt) {
     evt.preventDefault();
     const post = await postsAPI.createPost(formData)
-
   }
 
+
+
   return (
+
     <div>
       <h1>NewPosts</h1>
       <form onSubmit={handleSubmit}>
