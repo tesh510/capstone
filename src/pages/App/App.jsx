@@ -28,9 +28,9 @@ function App() {
           <Routes>
             {/* Route components in here */}
             <Route path="/" element={<PostsLists posts={posts} />} />
-            <Route path="/NewPosts" element={<NewPosts setPosts={setPosts} />} />
+            <Route path="/NewPosts" element={<NewPosts setPosts={setPosts} posts={posts} />} />
             <Route path="/orders" element={<OrderHistoryPage />} />
-            <Route path="/:id" element={<PostDetail posts={posts} />} />
+            <Route path="/:id" element={<PostDetail posts={posts} setPosts={setPosts} />} />
           </Routes>
         </>
         :

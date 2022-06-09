@@ -8,3 +8,6 @@ export function createPost(postData) {
 export function getPosts() {
   return sendRequest(BASE_URL);
 }
+export function update(post, id) {
+  return sendRequest(`${BASE_URL}/${id}`, 'PUT', post);
+}

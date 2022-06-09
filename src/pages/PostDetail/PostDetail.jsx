@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import NewPosts from '../../pages/NewPosts/NewPosts';
 
 
-export default function PostDetail ({ posts }) {
+export default function PostDetail ({ posts, setPosts }) {
     const [showForm, setShowForm] = useState(false)
     const { id } = useParams()
     const post = posts.find(p => p._id === id )
@@ -13,7 +13,7 @@ export default function PostDetail ({ posts }) {
       <>
       {
         showForm 
-           ? <NewPosts /> 
+           ? <NewPosts post= {post} setPosts={setPosts}  /> 
            : <div>
                 <h1>PostDetail</h1>
                 <p> { post.content } </p>
