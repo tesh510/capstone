@@ -1,0 +1,9 @@
+.PostCard h1{
+    margin: 0;
+}
+
+.PostCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

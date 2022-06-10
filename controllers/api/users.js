@@ -6,13 +6,8 @@ module.exports = {
   create,
   login,
   checkToken,
-  deletePost,
 };
 
-async function deletePost(req, res) {
-  const remove = await Post.findByIdAndDelete(req.params.id);
-  res.join(remove);
-}
 
 function checkToken(req, res) {
   console.log(req.user);

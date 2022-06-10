@@ -11,3 +11,7 @@ export function getPosts() {
 export function update(post, id) {
   return sendRequest(`${BASE_URL}/${id}`, 'PUT', post);
 }
+export function deletePost(id) {
+  return sendRequest(`${BASE_URL}/${id}`, 'DELETE');
+}
+

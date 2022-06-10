@@ -1,7 +1,7 @@
 import * as postsAPI from '../../utilities/posts-api';
 import { useState, useEffect } from 'react';
 import PostCard from '../../components/PostCard/PostCard';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import NewPosts from '../../pages/NewPosts/NewPosts';
 
 
@@ -9,6 +9,14 @@ export default function PostDetail ({ posts, setPosts }) {
     const [showForm, setShowForm] = useState(false)
     const { id } = useParams()
     const post = posts.find(p => p._id === id )
+
+    async function deletePost() {
+      const removed = await postsAPI.deletePost(post._id);
+      const updatePosts = posts.filter(post => post._id !== removed._id);
+      setPosts = {updatePosts};
+      // Navigate('/posts');
+    }
+
     return (
       <>
       {
@@ -18,7 +26,7 @@ export default function PostDetail ({ posts, setPosts }) {
                 <h1>PostDetail</h1>
                 <p> { post.content } </p>
                 <button onClick= {() => setShowForm(true) }>Edit</button>
-                <button>Delete</button>
+                <button onClick= {deletePost}>Delete</button>
             </div>
 
         }

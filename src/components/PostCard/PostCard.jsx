@@ -8,7 +8,7 @@ export default function PostCard({ post }) {
   return (
 
     <Link to = {`/${post._id}`} >
-        <div>
+        <div className="postCard">
             <h1> { post.content } </h1>
         </div>
     </Link>
