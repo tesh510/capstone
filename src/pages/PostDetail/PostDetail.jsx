@@ -18,6 +18,7 @@ export default function PostDetail ({ posts, setPosts }) {
                 <h1>PostDetail</h1>
                 <p> { post.content } </p>
                 <button onClick= {() => setShowForm(true) }>Edit</button>
+                <button>Delete</button>
             </div>
 
         }

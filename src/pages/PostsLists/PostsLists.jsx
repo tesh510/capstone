@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import PostCard from '../../components/PostCard/PostCard';
 
 
-
 export default function PostsLists ({ posts }) {
     return (
       <>

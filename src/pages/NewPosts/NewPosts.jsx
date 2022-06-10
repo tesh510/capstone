@@ -5,7 +5,7 @@ import { useNavigate, Link } from 'react-router-dom';
 export default function NewPosts({ setPosts, posts, post }) {
   const [formData, setFormData] = useState({
     content: post ? post.content : '',
-    image: post.image ? post.image : '',
+    // image: post.image ? post.image : '',
   })
 
   const navigate = useNavigate();
@@ -43,7 +43,7 @@ export default function NewPosts({ setPosts, posts, post }) {
         <input onChange={handleChange} type="text" name="content" value={formData.content} />
         <input type="submit" />
       </form>
-      <Link to={"/"} onClick={hello}>Here</Link>
+      <Link to={"/"} onClick={hello}>Go Back</Link>
     </div>
   );
 }
