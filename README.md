@@ -17,16 +17,16 @@
 </div>
 
 <h1>:Pencil: Description</h1>
-<img align="center"img src="https://i.imgur.com/hLCfOqI.png"</p>
+<img align="center"img src=""</p>
 
 <details>
 <summary> :gear: Functionality</summary>
 
   | Description | Screenshot |
   |------------ | ------------|
-  | <h3 align="center">Landing Page</h3> | <img src="https://i.imgur.com/boJ7O1q.png"/>
-  | <h3 align="center">New Post</h3> | <img src="https://i.imgur.com/bd6FnPP.jpg"/>
-  | <h3 align="center">Posts Lists</h3> | <img src="https://i.imgur.com/InzXDHa.png"/>
+  | <h3 align="center">Landing Page</h3> | <img src=""/>
+  | <h3 align="center">New Post</h3> | <img src=""/>
+  | <h3 align="center">Posts Lists</h3> | <img src=""/>
 </details>
 
 
