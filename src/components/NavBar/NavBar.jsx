@@ -12,10 +12,11 @@ export default function NavBar({ user, setUser }) {
   }
 
   return (
-    <nav className="RenderNav">
-      <Link className="post-card" to="/orders">Order History</Link>
-      &nbsp; | &nbsp;
+    <nav>
+      <Link to="/orders"></Link>
       <Link to="/NewPosts">New Posts</Link>
+      &nbsp; | &nbsp;
+      <Link to="/">Posts</Link>
       &nbsp; | &nbsp;
       <span>Welcome, {user.name}</span>
       &nbsp; | &nbsp;

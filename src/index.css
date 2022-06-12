@@ -20,10 +20,11 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(https://i.imgur.com/Hf6eKwr.jpg) no-repeat center center fixed; 
-  padding: 2vmin;
+  background-image: url(https://i.imgur.com/Hf6eKwr.jpg); 
+  padding: 2vmin; 
   height: 100vh;
   margin-left: 100px;
+  background-size: cover;
 }
 
 code {
@@ -78,24 +79,24 @@ code {
   font-size: 2vmin;
 }
 
-.form-container {
+/* .form-container {
   padding: 3vmin;
   background-color: var(--tan-1);
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
-}
+} */
 
 p.error-message {
   color: var(--orange);
   text-align: center;
 }
 
-form {
+/* form {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 1.25vmin;
   color: var(--text-light);
-}
+} */
 
 label {
   font-size: 2vmin;
@@ -113,15 +114,15 @@ input {
   outline: none;
 }
 
-input:focus {
+/* input:focus {
   border-color: var(--orange);
-}
+} */
 
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--orange);
+  /* background-color: var(--orange); */
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -130,7 +131,7 @@ button, a.button {
   border-radius: .5vmin;
   outline: none;
   cursor: pointer;
-}
+} 
 
 button.btn-sm {
   font-size: 1.5vmin;
@@ -144,7 +145,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: var(--tan-4);
+  /* background-color: var(--tan-4); */
 }
 
 button[type="submit"] {

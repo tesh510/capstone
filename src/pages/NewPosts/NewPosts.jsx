@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import * as postsAPI from '../../utilities/posts-api';
 import { useNavigate, Link } from 'react-router-dom';
+import './NewPosts.css';
 
 export default function NewPosts({ setPosts, posts, post }) {
   const [formData, setFormData] = useState({
@@ -38,12 +39,12 @@ export default function NewPosts({ setPosts, posts, post }) {
   return (
 
     <div>
-      <h1>NewPosts</h1>
+      <h1>Add a Post</h1>
       <form onSubmit={handleSubmit}>
         <input onChange={handleChange} type="text" name="content" value={formData.content} />
-        <input type="submit" />
+        <input className="login-btn" type="submit" />
       </form>
-      <Link to={"/"} onClick={hello}>Go Back</Link>
+      <Link className="go-back-btn" to={"/"} onClick={hello}>Go Back</Link>
     </div>
   );
 }
