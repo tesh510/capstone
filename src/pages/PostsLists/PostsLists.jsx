@@ -9,7 +9,7 @@ export default function PostsLists ({ posts }) {
     return (
       <>
       <div className="PostCard">
-        <h1>PostsLists</h1>
+        <h1>List of Posts</h1>
         {posts.map(p => <PostCard post={p} />) }
       </div>
       </>
