@@ -24,9 +24,10 @@
 
   | Description | Screenshot |
   |------------ | ------------|
-  | <h3 align="center">Landing Page</h3> | <img src=""/>
-  | <h3 align="center">New Post</h3> | <img src=""/>
-  | <h3 align="center">Posts Lists</h3> | <img src=""/>
+  | <h3 align="center">Log In</h3> | <img src="https://i.imgur.com/6m9TVVS.jpg"/>
+  | <h3 align="center">Sign Up</h3> | <img src="https://i.imgur.com/EHESzMy.jpg"/>
+  | <h3 align="center">New Post</h3> | <img src="https://i.imgur.com/z73Uvap.jpg"/>
+  | <h3 align="center">Posts Lists</h3> | <img src="https://i.imgur.com/LpxxFPk.jpg"/>
 </details>
 
 
@@ -52,7 +53,7 @@
 <details open>
   <summary>Community Guidelines</summary>
   <ol>
-  <li>Blogs Doo Doo</li>
+  <li>Blogger</li>
   </ol>
 </details>
 
