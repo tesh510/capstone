@@ -4,20 +4,19 @@
 </div>
 
 <div align="center">
-  <h3>Hitesh Deo AKA Tesh!</h3>`                             
-  <a href="https://github.com/tesh510"_target="_blank">
+  <h3>Hitesh Deo AKA Tesh!</h3>                            
+<!--   <a href="https://github.com/tesh510"_target="_blank">
     <img src="https://img.shields.io/badge/-Portfolio:_tesh510.github.io-darkgreen?style=flat&logo=medium"/>
-  </a>
+  </a> -->
   <a href="https://www.linkedin.com/in/tesh-deo94/" target="_blank">
-    <img src="https://img.shields.io/badge/-linkedin.com/in/tesh-deo94-blue?style=flat&``logo=Linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/-linkedin.com/in/teshdeo94-blue?style=flat&logo=Linkedin&logoColor=white">
   </a> 
   <a href="hiteshdeo@yahoo.com" target="_blank">
     <img src="https://img.shields.io/badge/-hiteshdeo@yahoo.com-c14438?style=flat&logo=Gmail&``logoColor=white">
   </a>
 </div>
 
-<h1>:Pencil: Description</h1>
-<img align="center"img src=""</p>
+<h1>:pencil: Description</h1>
 
 <details>
 <summary> :gear: Functionality</summary>
